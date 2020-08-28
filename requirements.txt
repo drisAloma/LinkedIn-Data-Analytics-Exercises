@@ -4,4 +4,3 @@ scikit-learn==0.22.1
 pandas>=0.19
 matplotlib>=1.4.3
 streamlit
-pickle
