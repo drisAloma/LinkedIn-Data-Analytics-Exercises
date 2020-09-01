@@ -2,7 +2,7 @@ def welcome():
    return 'Welcome All'
    
 def  heart_disease_diagnosis(Age,Sex,CP,Trestbps,Chol,Fbs,Restecg,Thalach,Exang,CA,Thal):
-   prediction=classifier.predict([Age,Sex,CP,Trestbps,Chol,Fbs,Restecg,Thalach,Exang,CA,Thal])
+   prediction=classifier.predict([[Age,Sex,CP,Trestbps,Chol,Fbs,Restecg,Thalach,Exang,CA,Thal]])
    #print(prediction)
    return prediction
 
