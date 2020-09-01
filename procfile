@@ -1,1 +1,1 @@
-web: sh setup.sh && Heart_disease_diagnosis-app.py
+web: sh setup.sh && testcode.py
